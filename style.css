@@ -35,6 +35,8 @@ Version:1.0
 20. 404 Error CSS
 21. Footer CSS
 22. PRODUCT DETAILS PAGE
+23. DASHBOARD page
+
 
 ========================================*/
 :root {
@@ -5149,3 +5151,35 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 /* PRODUCT DETAILS END */
+
+
+/* DASHBOARD  */
+.profileWrapper{
+  padding: 50px 0;
+
+}
+.profileAreaWrapper{
+  border: 1px solid #eee;
+  border-radius: 15px;
+  overflow-x: hidden;
+}
+.profilieSidebar{
+  border-right: 1px solid #eee;
+}
+.profilieSidebar ul li a{
+  display: block;
+  padding: 15px 40px;
+  border-bottom: 1px solid #eee;
+}
+.profilieSidebar ul li:hover a,
+.profilieSidebar ul li a.active{
+  background-color: var(--primaryColor);
+  color: white;
+  
+}
+
+.profileContent{
+  padding: 20px;
+}
+
+/* DASHBOARD END */
