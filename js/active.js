@@ -397,4 +397,12 @@ Version:1.0
   });
 
 
+  //* PRODUCT PROFILE IMAGE
+  $("#userprofileImageInput").change((e)=>{
+    const url = URL.createObjectURL(e.target.files[0]);
+    $(".userProfileImage img").attr("src",url);
+  });
+
+
+
 })(jQuery);

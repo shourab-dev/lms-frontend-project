@@ -313,8 +313,8 @@
                         <div class="col-lg-4">
                             <div class="profilieSidebar">
                                 <ul>
-                                    <li><a class="active" href="dashboard.html">Dashboard</a></li>
-                                    <li><a class="" href="profile.html">Profile</a></li>
+                                    <li><a class="" href="dashboard.html">Dashboard</a></li>
+                                    <li><a class="active" href="profile.html">Profile</a></li>
                                     <li><a class="" href="orders.html">My Orders</a></li>
                                     <li><a class="" href="my-course.html">My Courses</a></li>
                                     <li><a class="" href="#">Logout</a></li>
@@ -323,14 +323,44 @@
                         </div>
                         <div class="col-lg-8">
                             <div class="profileContent">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas laudantium amet
-                                tempore illum maxime esse tempora veniam. Quas, itaque eos. Maiores quisquam doloribus
-                                quae nemo commodi impedit quas unde, reprehenderit rerum fugiat tempora? Repellendus,
-                                eum quam voluptatem harum necessitatibus quis suscipit aperiam similique quaerat
-                                praesentium, fugiat consectetur, tempore obcaecati optio.
+                                <form action="" method="post">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="userProfileImage">
+                                                <label for="userprofileImageInput"><img
+                                                        src="https://api.dicebear.com/7.x/initials/svg?backgroundColor=fb8c00&seed=shourab"
+                                                        alt=""></label>
+                                                <input type="file" name="profileImage" id="userprofileImageInput"
+                                                    class="d-none">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <input type="text" class="form-control my-2" name="fname"
+                                                placeholder="First Name">
+                                            <input type="text" class="form-control my-2" name="lname"
+                                                placeholder="Last Name">
+                                            <input type="text" class="form-control my-2" name="lname"
+                                                placeholder="Email">
+                                            <button class="btn btn-primary">Update Profile Info</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <hr>
+                                <form action="" method="post">
+                                    <div class="row justify-content-lg-end">
+                                        <div class="password col-lg-8 ">
+                                            <input type="text" placeholder="Old Password" class="form-control my-2">
+                                            <input type="text" placeholder="New Password" class="form-control my-2">
+                                            <input type="text" placeholder="Confirm Password" class="form-control my-2">
+                                            <button class="btn btn-primary">Update Password</button>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
+
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
