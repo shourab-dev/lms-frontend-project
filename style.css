@@ -5209,4 +5209,49 @@ input[type=number]::-webkit-outer-spin-button {
   max-width: 350px;
 }
 
+.orderCard{
+  width: 100%;
+  max-width: 200px;
+  padding:15px 0;
+  border-radius: 8px;
+  background-color: var(--primaryColor);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+
+}
+@media (max-width: 575px){
+  .orderCard{
+    padding: 10px 0;
+    border-radius: 5px;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+}
+.orderCard * {
+  color: white;
+}
+.pagination{
+  display: flex;
+  justify-content: flex-end;
+}
+.pagination li a {
+  padding: 8px 15px;
+  display: block;
+  border: 1px solid #efefef;
+  font-size: 16px;
+}
+.pagination li:first-child a{
+  border-radius: 5px 0 0 5px;
+}
+.pagination li:last-child a{
+  border-radius: 0 5px 5px 0;
+}
+.pagination li a.active,
+.pagination li:hover a{
+  background-color: var(--primaryColor);
+  color: white;
+  border-color: var(--primaryColor);
+}
+
 /* DASHBOARD END */
