@@ -410,6 +410,7 @@
                                                 <option value="">Small</option>
                                             </select>
                                         </div>
+
                                         <div class="col-lg-5 col-sm-6">
                                             <select name="currency" data-placeholder="Select Currency">
                                                 <option value="">USD</option>
@@ -417,15 +418,19 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row align-items-center">
                                         <div class="col-lg-5">
-                                            <div class="cartCounter">
-                                                <button class="cartCounterBtn">-</button>
-                                                <input type="number" value="1" >
-                                                <button class="cartCounterBtn">+</button>
+                                            <div class="cartCounter col-lg-11 px-0">
+                                                <button data-behave="decrement" type="button"
+                                                    class="cartCounterBtn">-</button>
+                                                <input type="number" value="1" class="displayInput">
+                                                <button data-behave="increment" type="button"
+                                                    class="cartCounterBtn">+</button>
                                             </div>
                                         </div>
-                                        <div class="col-lg-5"></div>
+                                        <div class="col-lg-5">
+                                            <button type="submit" class="btn-primary btn">Add To Cart </button>
+                                        </div>
                                     </div>
                                 </div>
                             </form>
@@ -434,6 +439,343 @@
                         </div>
 
 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="productDescriptions" class="my-5">
+            <div class="container">
+                <div class="productTab">
+                    <div class="productTabHeading">
+                        <h4>Descriptions</h4>
+                    </div>
+                    <div class="productTabDetails">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vitae fugiat dolor porro
+                            eveniet animi autem. Commodi temporibus ut accusamus, nostrum magnam illo neque cum eum
+                            dolorem cumque, maxime dolor aliquam vel, dolore qui. Dolor libero, adipisci commodi et
+                            dolores molestias eligendi, pariatur eos consequuntur vero impedit, voluptate aperiam
+                            temporibus.
+
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vitae fugiat dolor porro
+                            eveniet animi autem. Commodi temporibus ut accusamus, nostrum magnam illo neque cum eum
+                            dolorem cumque, maxime dolor aliquam vel, dolore qui. Dolor libero, adipisci commodi et
+                            dolores molestias eligendi, pariatur eos consequuntur vero impedit, voluptate aperiam
+                            temporibus.
+
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vitae fugiat dolor porro
+                            eveniet animi autem. Commodi temporibus ut accusamus, nostrum magnam illo neque cum eum
+                            dolorem cumque, maxime dolor aliquam vel, dolore qui. Dolor libero, adipisci commodi et
+                            dolores molestias eligendi, pariatur eos consequuntur vero impedit, voluptate aperiam
+                            temporibus.
+
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vitae fugiat dolor porro
+                            eveniet animi autem. Commodi temporibus ut accusamus, nostrum magnam illo neque cum eum
+                            dolorem cumque, maxime dolor aliquam vel, dolore qui. Dolor libero, adipisci commodi et
+                            dolores molestias eligendi, pariatur eos consequuntur vero impedit, voluptate aperiam
+                            temporibus.
+
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vitae fugiat dolor porro
+                            eveniet animi autem. Commodi temporibus ut accusamus, nostrum magnam illo neque cum eum
+                            dolorem cumque, maxime dolor aliquam vel, dolore qui. Dolor libero, adipisci commodi et
+                            dolores molestias eligendi, pariatur eos consequuntur vero impedit, voluptate aperiam
+                            temporibus.
+
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vitae fugiat dolor porro
+                            eveniet animi autem. Commodi temporibus ut accusamus, nostrum magnam illo neque cum eum
+                            dolorem cumque, maxime dolor aliquam vel, dolore qui. Dolor libero, adipisci commodi et
+                            dolores molestias eligendi, pariatur eos consequuntur vero impedit, voluptate aperiam
+                            temporibus.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="relatedProducts">
+            <div class="container">
+                <div class="position-relative">
+                    <div class="relatedProductsSlider">
+                        <div class="px-3">
+                            <div class="single-product">
+                                <div class="product-img">
+                                    <a href="product-details.html">
+                                        <img class="default-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                        <img class="hover-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                    </a>
+                                    <div class="button-head">
+                                        <div class="product-action">
+                                            <a data-toggle="modal" data-target="#exampleModal" title="Quick View"
+                                                href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to
+                                                    Wishlist</span></a>
+                                            <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to
+                                                    Compare</span></a>
+                                        </div>
+                                        <div class="product-action-2">
+                                            <a title="Add to cart" href="#">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                                    <div class="product-price">
+                                        <span>$29.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-3">
+                            <div class="single-product">
+                                <div class="product-img">
+                                    <a href="product-details.html">
+                                        <img class="default-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                        <img class="hover-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                    </a>
+                                    <div class="button-head">
+                                        <div class="product-action">
+                                            <a data-toggle="modal" data-target="#exampleModal" title="Quick View"
+                                                href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to
+                                                    Wishlist</span></a>
+                                            <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to
+                                                    Compare</span></a>
+                                        </div>
+                                        <div class="product-action-2">
+                                            <a title="Add to cart" href="#">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                                    <div class="product-price">
+                                        <span>$29.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-3">
+                            <div class="single-product">
+                                <div class="product-img">
+                                    <a href="product-details.html">
+                                        <img class="default-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                        <img class="hover-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                    </a>
+                                    <div class="button-head">
+                                        <div class="product-action">
+                                            <a data-toggle="modal" data-target="#exampleModal" title="Quick View"
+                                                href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to
+                                                    Wishlist</span></a>
+                                            <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to
+                                                    Compare</span></a>
+                                        </div>
+                                        <div class="product-action-2">
+                                            <a title="Add to cart" href="#">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                                    <div class="product-price">
+                                        <span>$29.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-3">
+                            <div class="single-product">
+                                <div class="product-img">
+                                    <a href="product-details.html">
+                                        <img class="default-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                        <img class="hover-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                    </a>
+                                    <div class="button-head">
+                                        <div class="product-action">
+                                            <a data-toggle="modal" data-target="#exampleModal" title="Quick View"
+                                                href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to
+                                                    Wishlist</span></a>
+                                            <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to
+                                                    Compare</span></a>
+                                        </div>
+                                        <div class="product-action-2">
+                                            <a title="Add to cart" href="#">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                                    <div class="product-price">
+                                        <span>$29.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-3">
+                            <div class="single-product">
+                                <div class="product-img">
+                                    <a href="product-details.html">
+                                        <img class="default-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                        <img class="hover-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                    </a>
+                                    <div class="button-head">
+                                        <div class="product-action">
+                                            <a data-toggle="modal" data-target="#exampleModal" title="Quick View"
+                                                href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to
+                                                    Wishlist</span></a>
+                                            <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to
+                                                    Compare</span></a>
+                                        </div>
+                                        <div class="product-action-2">
+                                            <a title="Add to cart" href="#">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                                    <div class="product-price">
+                                        <span>$29.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-3">
+                            <div class="single-product">
+                                <div class="product-img">
+                                    <a href="product-details.html">
+                                        <img class="default-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                        <img class="hover-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                    </a>
+                                    <div class="button-head">
+                                        <div class="product-action">
+                                            <a data-toggle="modal" data-target="#exampleModal" title="Quick View"
+                                                href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to
+                                                    Wishlist</span></a>
+                                            <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to
+                                                    Compare</span></a>
+                                        </div>
+                                        <div class="product-action-2">
+                                            <a title="Add to cart" href="#">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                                    <div class="product-price">
+                                        <span>$29.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-3">
+                            <div class="single-product">
+                                <div class="product-img">
+                                    <a href="product-details.html">
+                                        <img class="default-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                        <img class="hover-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                    </a>
+                                    <div class="button-head">
+                                        <div class="product-action">
+                                            <a data-toggle="modal" data-target="#exampleModal" title="Quick View"
+                                                href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to
+                                                    Wishlist</span></a>
+                                            <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to
+                                                    Compare</span></a>
+                                        </div>
+                                        <div class="product-action-2">
+                                            <a title="Add to cart" href="#">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                                    <div class="product-price">
+                                        <span>$29.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-3">
+                            <div class="single-product">
+                                <div class="product-img">
+                                    <a href="product-details.html">
+                                        <img class="default-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                        <img class="hover-img"
+                                            src="https://api.brightskills.com/images/course/course-vfx-animation1695101158.jpg"
+                                            alt="#">
+                                    </a>
+                                    <div class="button-head">
+                                        <div class="product-action">
+                                            <a data-toggle="modal" data-target="#exampleModal" title="Quick View"
+                                                href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to
+                                                    Wishlist</span></a>
+                                            <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to
+                                                    Compare</span></a>
+                                        </div>
+                                        <div class="product-action-2">
+                                            <a title="Add to cart" href="#">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                                    <div class="product-price">
+                                        <span>$29.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrow">
+                        <button class="leftArrow productRelatedLeftArrow"><i class="fa fa-angle-left"
+                                aria-hidden="true"></i></button>
+                        <button class="rightArrow productRelatedRightArrow"><i class="fa fa-angle-right"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>

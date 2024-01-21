@@ -29,7 +29,7 @@ Version:1.0
 	19. Preloader JS
 	20. HIDE CATEGORY MENU
 	21. PRODUCT FEATURED DETAILS
-	
+	22. PRODUCT COUTER 	
 =========================================
 [End Activation Code]
 =========================================*/
@@ -319,7 +319,7 @@ Version:1.0
   const allSelects = $("select");
 
   allSelects.map((index, select) => {
-	console.log();
+    console.log();
     NiceSelect.bind(select, {
       searchable: select.multiple,
       placeholder: select.dataset.placeholder,
@@ -376,4 +376,25 @@ Version:1.0
     nextArrow: ".productThumbnailRightArrow",
     asNavFor: ".productFeaturedSlider",
   });
+
+  ///* PRODUCT COUNTER
+  $(".cartCounterBtn").click(function () {
+    const displayInput = $(this).parent().children(".displayInput");
+    if ($(this).attr("data-behave") == "increment") {
+      displayInput.val(Number(displayInput.val()) + 1);
+    } else{
+		if (displayInput.val() <= 1)  return false;
+		displayInput.val(Number(displayInput.val()) - 1);
+
+	}
+  });
+
+  //* RELATED PRODUCT SLIDER
+  $(".relatedProductsSlider").slick({
+    slidesToShow: 4,
+    prevArrow: ".productRelatedLeftArrow",
+    nextArrow: ".productRelatedRightArrow",
+  });
+
+
 })(jQuery);
