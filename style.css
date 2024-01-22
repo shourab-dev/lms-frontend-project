@@ -36,6 +36,7 @@ Version:1.0
 21. Footer CSS
 22. PRODUCT DETAILS PAGE
 23. DASHBOARD page
+24. SHOP PAGE
 
 
 ========================================*/
@@ -5263,3 +5264,33 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 /* DASHBOARD END */
+
+
+/* *SHOP PAGE */
+#productArcheive{
+  padding: 60px 0;
+}
+
+.productFilter{
+  border: 1px solid #eee;
+  border-radius: 15px;
+  
+}
+
+#filterSidebarOffcanvas .productFilter{
+  
+  border-radius: 0;
+}
+
+.productFilter .card-header h5{
+  font-size: 15px;
+  color: #555;
+}
+.productFilter .card-body{
+  font-size: 18px;
+}
+.productFilter .card-body label{
+  display: block;
+  margin-bottom: 5px;
+}
+/* *SHOP PAGE END*/
