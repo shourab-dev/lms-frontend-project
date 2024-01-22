@@ -37,7 +37,7 @@ Version:1.0
 22. PRODUCT DETAILS PAGE
 23. DASHBOARD page
 24. SHOP PAGE
-
+25. COURSE DETAILS
 
 ========================================*/
 :root {
@@ -5085,16 +5085,15 @@ main .nice-select * {
 .productInfo h1 {
   font-size: 30px;
 }
-.productInfo .cartCounter{
+.productInfo .cartCounter {
   display: flex;
   justify-content: center;
   margin: 10px 0;
-
 }
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .productInfo .cartCounter * {
@@ -5105,85 +5104,80 @@ input[type=number]::-webkit-outer-spin-button {
   border: none;
   outline: none;
 }
-.productInfo .cartCounter button{
+.productInfo .cartCounter button {
   cursor: pointer;
   border-radius: 0;
   font-size: 25px;
 }
-.productInfo .cartCounter input{
+.productInfo .cartCounter input {
   border: 1px solid #eee;
 }
 
-.productInfo .cartCounter button:hover{
+.productInfo .cartCounter button:hover {
   background-color: var(--primaryColor);
   color: white;
   outline: 1px solid var(--primaryColor);
   outline-offset: 2px;
 }
 
-#productDescriptions .productTab{
+#productDescriptions .productTab {
   background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-  
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
-#productDescriptions .productTab .productTabHeading h4{
+#productDescriptions .productTab .productTabHeading h4 {
   font-size: 16px;
   font-weight: 500;
   background-color: var(--primaryColor);
   color: white;
   width: fit-content;
   padding: 15px 20px;
-
 }
 
 #productDescriptions .productTab .productTabDetails {
-  border:1px solid #eee;
-  padding: 20px ;
+  border: 1px solid #eee;
+  padding: 20px;
 }
 #productDescriptions .productTab .productTabDetails * {
   margin-bottom: 5px;
 }
-#relatedProducts{
-  padding: 0px 0 40px ;
+#relatedProducts {
+  padding: 0px 0 40px;
 }
 .relatedProductsSlider .slide {
   padding: 0 15px;
 }
 
-
 /* PRODUCT DETAILS END */
 
-
 /* DASHBOARD  */
-.profileWrapper{
+.profileWrapper {
   padding: 50px 0;
-
 }
-.profileAreaWrapper{
+.profileAreaWrapper {
   border: 1px solid #eee;
   border-radius: 15px;
   overflow-x: hidden;
 }
-.profilieSidebar{
+.profilieSidebar {
   border-right: 1px solid #eee;
 }
-.profilieSidebar ul li a{
+.profilieSidebar ul li a {
   display: block;
   padding: 15px 40px;
   border-bottom: 1px solid #eee;
 }
 .profilieSidebar ul li:hover a,
-.profilieSidebar ul li a.active{
+.profilieSidebar ul li a.active {
   background-color: var(--primaryColor);
   color: white;
-  
 }
 
-.profileContent{
+.profileContent {
   padding: 20px;
 }
 
-.profileContent .userProfileImage{
+.profileContent .userProfileImage {
   width: 220px;
   height: 220px;
   border-radius: 50%;
@@ -5191,10 +5185,10 @@ input[type=number]::-webkit-outer-spin-button {
   place-items: center;
   border: 1px solid #f6931d;
 }
-.profileContent .userProfileImage label{
+.profileContent .userProfileImage label {
   margin-bottom: 0;
 }
-.profileContent .userProfileImage img{
+.profileContent .userProfileImage img {
   border-radius: 50%;
   width: 200px;
   height: 200px;
@@ -5203,26 +5197,24 @@ input[type=number]::-webkit-outer-spin-button {
   object-position: center;
 }
 
-.profileContent input
-{
+.profileContent input {
   padding: 0 15px;
   height: 45px;
   max-width: 350px;
 }
 
-.orderCard{
+.orderCard {
   width: 100%;
   max-width: 200px;
-  padding:15px 0;
+  padding: 15px 0;
   border-radius: 8px;
   background-color: var(--primaryColor);
   color: white;
   text-align: center;
   cursor: pointer;
-
 }
-@media (max-width: 575px){
-  .orderCard{
+@media (max-width: 575px) {
+  .orderCard {
     padding: 10px 0;
     border-radius: 5px;
     max-width: 100%;
@@ -5232,7 +5224,7 @@ input[type=number]::-webkit-outer-spin-button {
 .orderCard * {
   color: white;
 }
-.pagination{
+.pagination {
   display: flex;
   justify-content: flex-end;
 }
@@ -5242,55 +5234,87 @@ input[type=number]::-webkit-outer-spin-button {
   border: 1px solid #efefef;
   font-size: 16px;
 }
-.pagination li:first-child a{
+.pagination li:first-child a {
   border-radius: 5px 0 0 5px;
 }
-.pagination li:last-child a{
+.pagination li:last-child a {
   border-radius: 0 5px 5px 0;
 }
 .pagination li a.active,
-.pagination li:hover a{
+.pagination li:hover a {
   background-color: var(--primaryColor);
   color: white;
   border-color: var(--primaryColor);
 }
 
-
-.profileContent table tbody h3{
+.profileContent table tbody h3 {
   font-size: 20px;
 }
-.profileContent table tbody p{
+.profileContent table tbody p {
   font-size: 13px;
 }
 
 /* DASHBOARD END */
 
-
 /* *SHOP PAGE */
-#productArcheive{
+#productArcheive {
   padding: 60px 0;
 }
 
-.productFilter{
+.productFilter {
   border: 1px solid #eee;
   border-radius: 15px;
-  
 }
 
-#filterSidebarOffcanvas .productFilter{
-  
+#filterSidebarOffcanvas .productFilter {
   border-radius: 0;
 }
 
-.productFilter .card-header h5{
+.productFilter .card-header h5 {
   font-size: 15px;
   color: #555;
 }
-.productFilter .card-body{
+.productFilter .card-body {
   font-size: 18px;
 }
-.productFilter .card-body label{
+.productFilter .card-body label {
   display: block;
   margin-bottom: 5px;
 }
 /* *SHOP PAGE END*/
+
+/* *COURSE DETAILS PAGE */
+#courseDetails {
+  padding: 80px 0;
+}
+#courseDetails .videoIntro iframe {
+  aspect-ratio: 16/9;
+  width: 100%;
+  max-height: 500px;
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.courseIntro .descriptiton * {
+  margin-bottom: 10px;
+}
+.courseIntro .couseRequirement {
+  display: grid;
+  place-items: center;
+  max-width: 350px;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 100%;
+  border-radius: 15px;
+  padding: 20px;
+  outline: 5px solid var(--primaryColor);
+}
+.courseIntro .couseRequirement li{
+  margin: 15px 0;
+  cursor: pointer;
+}
+.courseIntro .price{
+  text-align: left;
+}
+/* *COURSE DETAILS PAGE END */
